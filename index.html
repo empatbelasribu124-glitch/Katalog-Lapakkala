@@ -42,7 +42,7 @@ footer{margin-top:56px;color:#5C4A22;font-size:14px}
 </div>
 <a class="fab" id="wa" href="#">Pesan lewat WhatsApp</a>
 <script>
-var WA_NUMBER="62XXXXXXXXXXX"; // ganti dengan nomor WhatsApp kamu, format 62...
+var WA_NUMBER="6289526498543"; // ganti dengan nomor WhatsApp kamu, format 62...
 function link(t){return "https://wa.me/"+WA_NUMBER+"?text="+encodeURIComponent(t);}
 document.getElementById("wa").href=link("Halo Lapak Kala, saya mau tanya katalog bunga.");
 document.querySelectorAll(".buy").forEach(function(b){b.onclick=function(){window.open(link("Halo, saya mau pesan "+b.dataset.name+" (Rp "+b.dataset.price+")"),"_blank");};});
